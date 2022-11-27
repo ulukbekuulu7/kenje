@@ -1,0 +1,200 @@
+@import "global";
+@import "media";
+
+#hero {
+  background: rgba(28, 26, 26, 0.98);
+  min-height: 100vh;
+h2{
+  position: absolute;
+  top: 12.8vw;
+  left: 17.5vw;
+  font-size: 300px;
+  color: #ffb700;
+
+}
+
+  h3 {
+    position: absolute;
+    top: 32vw;
+    left: 18.5vw;
+    font-size: 2.3vw;
+    font-family: sans-serif;
+  }
+
+  .hero {
+    &--title {
+      border: 1px solid #ffffff;
+      height: 30vw;
+      width: 0.1vw;
+      background: #ffffff;
+      box-shadow:0 0 10px #ffffff;
+      position: absolute;
+      left: 48vw;
+      top: 14vw;
+    }
+
+    &--block {
+      position: relative;
+
+      &__one {
+        &--ion {
+          a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 8px;
+            color: rgba(255, 255, 255, 0.78);
+
+          }
+
+          position: absolute;
+          font-size: 4vw;
+          background: rgba(250, 176, 40, 0.91);
+          box-shadow: 0 0 15px rgba(250, 176, 40, 0.91);
+          border-radius: 50%;
+          width: 5.7vw;
+          height: 5.7vw;
+          left: 40vw;
+          top: 4vw;
+        }
+
+        &--text {
+          h1 {
+            position: absolute;
+            color: #fff;
+            left: 36vw;
+            top: 10.2vw;
+          }
+
+          p {
+            position: absolute;
+            color: #ffc400;
+            left: 38.8vw;
+            top: 12.2vw;
+            font-size: 1.3vw;
+          }
+        }
+      }
+
+      &__two {
+        &--ion {
+          a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 12px;
+            color: #eeeeee;
+          }
+
+          position: absolute;
+          font-size: 2.5vw;
+          background: #4baeec;
+          box-shadow: 0 0 13px #4baeec;
+          border-radius: 50%;
+          width: 4vw;
+          height: 4vw;
+          left: 48vw;
+          top: 18vw;
+        }
+
+        p {
+          position: absolute;
+          color: #fff;
+          left: 53.2vw;
+          top: 19.2vw;
+          font-size: 1.5vw;
+        }
+      }
+
+      &__three {
+        &--ion {
+          a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            color: #eeeeee;
+          }
+
+          position: absolute;
+          font-size: 2.7vw;
+          background: linear-gradient(#7705f1, #e50a56, #fac527);
+          box-shadow: 0 0 25px #e50a56;
+          border-radius: 50%;
+          width: 4vw;
+          height: 4vw;
+          left: 48.1vw;
+          top: 25vw;
+        }
+
+        p {
+          position: absolute;
+          color: #fff;
+          left: 53.2vw;
+          top: 26.2vw;
+          font-size: 1.5vw;
+        }
+      }
+
+      &__four {
+        &--ion {
+          a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 7.5px;
+            color: #eeeeee;
+          }
+
+          position: absolute;
+          font-size: 3vw;
+          background: #4baeec;
+          box-shadow: 0 0 13px #4baeec;
+          border-radius: 50%;
+          width: 4vw;
+          height: 4vw;
+          left: 48.1vw;
+          top: 32vw
+        }
+
+        p {
+          position: absolute;
+          color: #fff;
+          left: 53.5vw;
+          top: 33.2vw;
+          font-size: 1.5vw;
+        }
+      }
+
+      &__five {
+        &--ion {
+          a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 8px;
+            color: #eeeeee;
+          }
+
+          position: absolute;
+          font-size: 3vw;
+          background: #2e732f;
+          box-shadow: 0 0 23px #2e732f;
+          border-radius: 50%;
+          width: 4vw;
+          height: 4vw;
+          left: 48.2vw;
+          top: 38.9vw
+        }
+
+        p {
+          position: absolute;
+          color: #fff;
+          left: 53.5vw;
+          top: 40.2vw;
+          font-size: 1.5vw;
+        }
+      }
+    }
+  }
+}

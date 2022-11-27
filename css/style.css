@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#hero {
+  background: rgba(28, 26, 26, 0.98);
+  min-height: 100vh;
+}
+#hero h2 {
+  position: absolute;
+  top: 12.8vw;
+  left: 17.5vw;
+  font-size: 300px;
+  color: #ffb700;
+}
+#hero h3 {
+  position: absolute;
+  top: 32vw;
+  left: 18.5vw;
+  font-size: 2.3vw;
+  font-family: sans-serif;
+}
+#hero .hero--title {
+  border: 1px solid #ffffff;
+  height: 30vw;
+  width: 0.1vw;
+  background: #ffffff;
+  box-shadow: 0 0 10px #ffffff;
+  position: absolute;
+  left: 48vw;
+  top: 14vw;
+}
+#hero .hero--block {
+  position: relative;
+}
+#hero .hero--block__one--ion {
+  position: absolute;
+  font-size: 4vw;
+  background: rgba(250, 176, 40, 0.91);
+  box-shadow: 0 0 15px rgba(250, 176, 40, 0.91);
+  border-radius: 50%;
+  width: 5.7vw;
+  height: 5.7vw;
+  left: 40vw;
+  top: 4vw;
+}
+#hero .hero--block__one--ion a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8px;
+  color: rgba(255, 255, 255, 0.78);
+}
+#hero .hero--block__one--text h1 {
+  position: absolute;
+  color: #fff;
+  left: 36vw;
+  top: 10.2vw;
+}
+#hero .hero--block__one--text p {
+  position: absolute;
+  color: #ffc400;
+  left: 38.8vw;
+  top: 12.2vw;
+  font-size: 1.3vw;
+}
+#hero .hero--block__two--ion {
+  position: absolute;
+  font-size: 2.5vw;
+  background: #4baeec;
+  box-shadow: 0 0 13px #4baeec;
+  border-radius: 50%;
+  width: 4vw;
+  height: 4vw;
+  left: 48vw;
+  top: 18vw;
+}
+#hero .hero--block__two--ion a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 12px;
+  color: #eeeeee;
+}
+#hero .hero--block__two p {
+  position: absolute;
+  color: #fff;
+  left: 53.2vw;
+  top: 19.2vw;
+  font-size: 1.5vw;
+}
+#hero .hero--block__three--ion {
+  position: absolute;
+  font-size: 2.7vw;
+  background: linear-gradient(#7705f1, #e50a56, #fac527);
+  box-shadow: 0 0 25px #e50a56;
+  border-radius: 50%;
+  width: 4vw;
+  height: 4vw;
+  left: 48.1vw;
+  top: 25vw;
+}
+#hero .hero--block__three--ion a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  color: #eeeeee;
+}
+#hero .hero--block__three p {
+  position: absolute;
+  color: #fff;
+  left: 53.2vw;
+  top: 26.2vw;
+  font-size: 1.5vw;
+}
+#hero .hero--block__four--ion {
+  position: absolute;
+  font-size: 3vw;
+  background: #4baeec;
+  box-shadow: 0 0 13px #4baeec;
+  border-radius: 50%;
+  width: 4vw;
+  height: 4vw;
+  left: 48.1vw;
+  top: 32vw;
+}
+#hero .hero--block__four--ion a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7.5px;
+  color: #eeeeee;
+}
+#hero .hero--block__four p {
+  position: absolute;
+  color: #fff;
+  left: 53.5vw;
+  top: 33.2vw;
+  font-size: 1.5vw;
+}
+#hero .hero--block__five--ion {
+  position: absolute;
+  font-size: 3vw;
+  background: #2e732f;
+  box-shadow: 0 0 23px #2e732f;
+  border-radius: 50%;
+  width: 4vw;
+  height: 4vw;
+  left: 48.2vw;
+  top: 38.9vw;
+}
+#hero .hero--block__five--ion a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  color: #eeeeee;
+}
+#hero .hero--block__five p {
+  position: absolute;
+  color: #fff;
+  left: 53.5vw;
+  top: 40.2vw;
+  font-size: 1.5vw;
+}
+
+/*# sourceMappingURL=style.css.map */
